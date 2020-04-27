@@ -1,0 +1,68 @@
+
+body{
+	background-color: rgba(247, 198, 141);
+	font-family: "Courier New", Courier, monospace;
+}
+#header-nav {
+    background-color: #fc9d6d;
+    border-radius: 0;
+    border: 0;
+}
+
+.navbar-brand, .navbar-nav li a {
+    line-height: 76px;
+    height: 76px;
+    padding-top: 0;
+}
+.navbar-brand a,h1{
+	font-weight: bolder;
+	color:#121211;
+	font-size: 1.5em;
+	text-transform: uppercase;
+}
+.navbar-brand a:hover {
+    text-decoration: none;
+    text-shadow: 2px 2px 2px #fe9797;
+}
+#nav-list {
+    background-color:#f7d388 ;
+}
+
+#nav-list a {
+    /*text-align: center;*/
+    font-weight: bolder;
+    color: #121211;
+    font-size: 1.5em;
+}
+
+#nav-list a:hover {
+    background-color: #fa874d;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #121211;
+}
+.list ul{
+	padding:0px;
+	padding-left:1.2em;
+}
+.list h2{
+	color:#121211;
+	font-weight: bold;
+	text-align: center;
+	font-size: 2.5em;
+}
+.list p,ul{
+	color:#121211;
+	font-size: 1.4em;
+}
+#action, #adventure, #fantasy {
+	width: 100%;
+    padding: 20px;
+    background-color: #ffe4c2;
+    box-shadow: 0 0 20px #121211;
+}
+#main{
+	margin-right: -18px;
+	margin-left: -18px;
+	margin-bottom: 40px
+}
